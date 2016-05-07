@@ -1,0 +1,107 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+Pcpu_defs_pack
+Z0 w1462607064
+Z1 dC:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master
+8C:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/cpu_defs_pack.vhd
+FC:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/cpu_defs_pack.vhd
+l0
+L1
+V0:MWI_7HCP1coeVT7YUAo0
+!s100 4BLZj?CaS?;nbP7Gak8:f1
+Z2 OP;C;10.4a;61
+32
+!s110 1462607342
+!i10b 1
+!s108 1462607342.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/cpu_defs_pack.vhd|
+!s107 C:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/cpu_defs_pack.vhd|
+!i113 1
+Z3 o-work work -2002 -explicit -O0
+Z4 tExplicit 1
+Emaxcpu
+R0
+Z5 DPx4 work 13 mem_defs_pack 0 22 :V:=hNXXlh:8c:9D^H6Nz2
+Z6 DPx4 work 13 cpu_defs_pack 0 22 0:MWI_7HCP1coeVT7YUAo0
+R1
+Z7 8C:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/main_entity.vhd
+Z8 FC:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/main_entity.vhd
+l0
+L4
+VS5OGDYU0hgE`Obm4nH<CZ3
+!s100 H]90EHA;X:AXa??YGkhE63
+R2
+32
+Z9 !s110 1462646868
+!i10b 1
+Z10 !s108 1462646868.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/main_entity.vhd|
+Z12 !s107 C:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/main_entity.vhd|
+!i113 1
+R3
+R4
+Afunctional
+R5
+R6
+Z13 DEx4 work 6 maxcpu 0 22 S5OGDYU0hgE`Obm4nH<CZ3
+l8
+L7
+Z14 VAE3Joef@K]lfYEdb5fz`n1
+Z15 !s100 K27n`eLoSP<L5Z>1LbV5o2
+R2
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R3
+R4
+Pmem_defs_pack
+R6
+R0
+R1
+Z16 8C:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/mem_defs_pack.vhd
+Z17 FC:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/mem_defs_pack.vhd
+l0
+L3
+V:V:=hNXXlh:8c:9D^H6Nz2
+!s100 Foa8E_g]z8NM;8Cm1M]9I3
+R2
+32
+b1
+Z18 !s110 1462607365
+!i10b 1
+Z19 !s108 1462607364.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/mem_defs_pack.vhd|
+Z21 !s107 C:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/mem_defs_pack.vhd|
+!i113 1
+R3
+R4
+Bbody
+R5
+R6
+l0
+L7
+Vh:>799>_cmmmI1W1en8HA0
+!s100 jHglkThn@K1cFX[FeV]Ka0
+R2
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R3
+R4
+nbody

@@ -1,0 +1,14 @@
+C:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/mem_defs_pack.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/mem_defs_pack.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package cpu_defs_pack
+-- Compiling package mem_defs_pack
+-- Compiling package body mem_defs_pack
+-- Loading package mem_defs_pack
+
+} {} {}} C:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/cpu_defs_pack.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/bruno_000/Downloads/MaxCPU-master/MaxCPU-master/cpu_defs_pack.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package cpu_defs_pack
+
+} {} {}}
