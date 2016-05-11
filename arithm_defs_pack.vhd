@@ -7,7 +7,7 @@ package arithm_defs_pack is
 	
 	--- procedure ADDC declaration
 
-	procedure EXEC_ADD (	
+	procedure EXEC_ADDC (	
 	      constant A, B     :	in data_type;				
 				variable CI       : in data_type;
 				variable R        : out boolean;
@@ -15,7 +15,7 @@ package arithm_defs_pack is
 				
 	--- procedure SUBC declaration
 	
-	procedure EXEC_SUB (	
+	procedure EXEC_SUBC (	
 	      constant A, B     :	in data_type;				
 				variable CI       : in data_type;
 				variable R        : out boolean;
@@ -28,7 +28,7 @@ package body arithm_defs_pack is
 	
 	---- procedure ADDC implementation
 	
-	procedure EXEC_ADD (	
+	procedure EXEC_ADDC (	
 	  constant A, B     : in data_type; --- input variables
 		variable CI       : in data_type; --- input carry 
 		variable R        : out boolean;  --- result
