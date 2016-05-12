@@ -10,18 +10,18 @@ package arithm_defs_pack is
 	--- procedure ADDC declaration
 
 	procedure EXEC_ADDC (	
-	      constant A, B     :	in data_type;				
-				variable CI       : in boolean;
-				variable R        : out data_type;
-				variable Z,CO,N,O : out boolean);
+	      constant A, B     : in data_type;				
+	      variable CI       : in boolean;
+	      variable R        : out data_type;
+	      variable Z,CO,N,O : out boolean);
 				
 	--- procedure SUBC declaration
 	
 	procedure EXEC_SUBC (	
-	      constant A, B     :	in data_type;				
-				variable CI       : in boolean;
-				variable R        : out data_type;
-				variable Z,CO,N,O : out boolean);
+	      constant A, B     : in data_type;				
+	      variable CI       : in boolean;
+	      variable R        : out data_type;
+	      variable Z,CO,N,O : out boolean);
 
 end arithm_defs_pack;
 
@@ -36,7 +36,7 @@ package body arithm_defs_pack is
 		variable R        : out data_type;  --- result
 		variable Z,CO,N,O : out boolean) is --- zero, output carry, Negative,   Overflow
 				
-    variable T: integer := A+B+Boolean'Pos( CI );
+          variable T: integer := A+B+Boolean'Pos( CI );
 	  variable A_s, B_s, T_s :integer; -- signed interpretation
 	  begin
 	    --- determine the sign of A
@@ -89,10 +89,10 @@ package body arithm_defs_pack is
 	---- procedure SUBC implemantation
 	
 	procedure EXEC_SUBC (	
-    constant A, B     : in data_type;  --- input variables
+          constant A, B     : in data_type;  --- input variables
 	  variable CI       : in boolean;  --- input carry 
-		variable R        : out data_type;   --- result
-		variable Z,CO,N,O : out boolean )is --- zero, output carry, Negative,   Overflow
+          variable R        : out data_type;   --- result
+	  variable Z,CO,N,O : out boolean )is --- zero, output carry, Negative,   Overflow
 				
 	variable T: integer := A-B-Boolean'Pos( CI );
 	variable A_s, B_s, T_s :integer; -- signed interpretation
